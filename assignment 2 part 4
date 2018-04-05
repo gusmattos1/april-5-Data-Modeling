@@ -1,0 +1,30 @@
+SELECT * FROM authors WHERE name = 'karen Melton'; # you will get id 8
+SELECT * FROM articles WHERE author_id = 8;
+
+select * from provinces where name = 'Ontario'; #you get id 14
+SELECT * FROM cities WHERE province_id = 14;     # you will get 2 cities
+
+select * from articles where title = 'Coding Bootcamps and Emotional Labor';
+select * fom authors where id = 4;       # you will get the name Tilde Ann Thurium
+
+select count(id) from provinces; # you get 14
+
+select * from residences where address = '4740 McDermott Street'; # you get id 9
+select * from persons where residence_id = 9; # you get 2 people.
+
+select * from cities where id = 11; # ottawa
+
+select * from provinces where id = 14; #get ontario
+
+select * from countries where id = 1; #gert Canada
+
+select * from persons where name = 'Destini Davis' ;    # residence id 2
+select * from residences where id = 2                   # city_id = 8
+select * from cities where id = 8                       #province_ID = 14
+select * from provinces where id = 14; #get ontario
+select * from countries where id = 1; #gert Canada
+
+select * from authors where name = 'Aditya Mukerjee' #get id 2
+select count(id) from articles where author_id = 2 # get 1
+
+
